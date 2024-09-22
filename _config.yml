@@ -73,9 +73,8 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: left
+      - layout: left-top
         title: International Journals
-        position: top-left
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)
         # link: Link to company (optional)
@@ -87,9 +86,8 @@ content:
 
   - title: Conferences
     layout: list
-    position: top-left
     content:
-      - layout: left
+      - layout: top-left
         title: International Conferences
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)

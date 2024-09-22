@@ -39,13 +39,13 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Korea University
         # sub_title: 2023 - 2025
         caption: 2023 - 2025
         description: | # this will include new lines to allow paragraphs
           M.S. in Industrial Management Engineering
-      - layout: left
+      - layout: top
         title: Pusan National University
         # sub_title: 2017 - 2023
         caption: 2017 - 2023
@@ -55,14 +55,14 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Bigdata Analytics & Engineering Lab
         # sub_title: Research Intern
         caption: 2022 - 2023
         # link: Link to company (optional)
         description: | # this will include new lines to allow paragraphs
           Research Intern at Bigdata Analytics & Engineering Lab, Pusan National University
-      - layout: left
+      - layout: top
         title: Regional Development & Planning Lab
         # sub_title: Research Intern
         caption: 2021 - 2022
@@ -87,7 +87,7 @@ content:
   - title: Conferences
     layout: list
     content:
-      - layout: top-middle
+      - layout: top
         title: International Conferences
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)
@@ -99,17 +99,17 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top
         title: Samsung Display
         caption: Mar. 2024 - Present
         description: | # this will include new lines to allow paragraphs
           Optimize facility planning by using optimization, Research Assistant @ Korea University
-      - layout: left
+      - layout: top
         title: IITP
         caption: Feb. 2024 - Present
         description: | # this will include new lines to allow paragraphs
           Development of NetZero Building Energy Efficient System through AI-based HVAC system control, Information and Communication Planning and Evaluation Institute, Research Assistant @ Korea University 
-      - layout: left
+      - layout: top
         title: Samsung Electronics
         caption: Nov. 2023 - Feb. 2024
         description: | # this will include new lines to allow paragraphs
@@ -118,11 +118,11 @@ content:
   - title: Scholarship
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Korea University
         description: | # this will include new lines to allow paragraphs
           Graduate School Mentor-Mentee Program, 2024
-      - layout: left
+      - layout: top
         title: Korea University
         description: | # this will include new lines to allow paragraphs
           Future Talent Scholarship Student, 2023

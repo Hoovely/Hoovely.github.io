@@ -41,14 +41,12 @@ content:
     content:
       - layout: left
         title: Korea University
-        border: weak
         # sub_title: 2023 - 2025
         caption: 2023 - 2025
         description: | # this will include new lines to allow paragraphs
           M.S. in Industrial Management Engineering
       - layout: left
         title: Pusan National University
-        border: weak
         # sub_title: 2017 - 2023
         caption: 2017 - 2023
         description: | # this will include new lines to allow paragraphs
@@ -77,6 +75,7 @@ content:
     content:
       - layout: left
         title: International Journals
+        position: top-left
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)
         # link: Link to company (optional)
@@ -85,10 +84,10 @@ content:
           - (Works in Progress) Joonghoo Park, Gwangjong Ko, Hyungjoo Cha and Taesu Cheong*, “Vehicle routing problem with metro based backhauls and MFCs”
           - (Works in Progress) Joonghoo Park, Hyungjoo Cha, San Kwon and Taesu Cheong*, “Temporary medical shelter location-routing problem with manpower allocation in a disaster situation”
           - Seongjin Lee, Joonghoo Park, Seungmin Cha and Donghyun Kim* (2022), “A Regional Economy’s Resistance to the COVID-19 Shock: Sales Revenues of Micro-, Small-, and Medium-Sized Enterprises in South Korea”, International Journal of Disaster Risk Science
-        position: top-left
 
   - title: Conferences
     layout: list
+    position: top-left
     content:
       - layout: left
         title: International Conferences
@@ -97,8 +96,7 @@ content:
         # link: Link to company (optional)
         description: | # this will include new lines to allow paragraphs
           - Joonghoo Park, Hyungjoo Cha, San Kwon and Taesu Cheong*, “Temporary medical shelter location-routing problem with manpower allocation in a disaster situation”, 2024 INFORMS Annual Meeting, Nov 2024.
-          - Joonghoo Park, Gwangjong Ko and Taesu Cheong*, “Micro-fulfillment center location routing problem with underground logistics system”, 2024 International Conference of Asian Shipping and Logistics, Jun 2024.
-        position: top-left
+          - Joonghoo Park, Gwangjong Ko and Taesu Cheong*, “Micro-fulfillment center location routing problem with underground logistics system”, 2024 International Conference of Asian Shipping and Logistics, Jun 2024.  
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)

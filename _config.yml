@@ -82,6 +82,7 @@ content:
           - (Works in Progress) Joonghoo Park, Gwangjong Ko, Hyungjoo Cha and Taesu Cheong*, “Vehicle routing problem with metro based backhauls and MFCs”
           - (Works in Progress) Joonghoo Park, Hyungjoo Cha, San Kwon and Taesu Cheong*, “Temporary medical shelter location-routing problem with manpower allocation in a disaster situation”
           - Seongjin Lee, Joonghoo Park, Seungmin Cha and Donghyun Kim* (2022), “A Regional Economy’s Resistance to the COVID-19 Shock: Sales Revenues of Micro-, Small-, and Medium-Sized Enterprises in South Korea”, International Journal of Disaster Risk Science
+        position: top-left
 
   - title: Conferences
     layout: list
@@ -94,6 +95,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Joonghoo Park, Hyungjoo Cha, San Kwon and Taesu Cheong*, “Temporary medical shelter location-routing problem with manpower allocation in a disaster situation”, 2024 INFORMS Annual Meeting, Nov 2024.
           - Joonghoo Park, Gwangjong Ko and Taesu Cheong*, “Micro-fulfillment center location routing problem with underground logistics system”, 2024 International Conference of Asian Shipping and Logistics, Jun 2024.
+        position: top-left
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -104,10 +106,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           Optimize facility planning by using optimization, Research Assistant @ Korea University
       - layout: left
-        title: Information and Communication Planning and Evaluation Institute
+        title: IITP
         caption: Feb. 2024 - Present
         description: | # this will include new lines to allow paragraphs
-          Development of NetZero Building Energy Efficient System through AI-based HVAC system control, Research Assistant @ Korea University 
+          Development of NetZero Building Energy Efficient System through AI-based HVAC system control, Information and Communication Planning and Evaluation Institute, Research Assistant @ Korea University 
       - layout: left
         title: Samsung Electronics
         caption: Nov. 2023 - Feb. 2024
@@ -118,13 +120,13 @@ content:
     layout: list
     content:
       - layout: left
-        title: Mar. 2024
+        title: Korea University
         description: | # this will include new lines to allow paragraphs
-          Korea University Graduate School Mentor-Mentee Program
+          Graduate School Mentor-Mentee Program, 2024
       - layout: left
-        title: Sep. 2023
+        title: Korea University
         description: | # this will include new lines to allow paragraphs
-          Korea University Future Talent Scholarship Student
+          Future Talent Scholarship Student, 2023
         
 # Footer
 footer_show_references: true

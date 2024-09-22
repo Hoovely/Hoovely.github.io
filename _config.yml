@@ -72,7 +72,7 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         title: International Journals
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)
@@ -86,7 +86,7 @@ content:
   - title: Conferences
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         title: International Conferences
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)
@@ -99,20 +99,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Optimize daily facility-specific planning with Optimization
+        title: Samsung Display
         caption: Mar. 2024 - Present
         description: | # this will include new lines to allow paragraphs
-          Optimize facility planning by using optimization, Samsung Display Co., Ltd. Research Assistant @ Korea University
+          Optimize facility planning by using optimization, Research Assistant @ Korea University
       - layout: left
-        title: Development of NetZero Building Energy Efficient System through AI-based HVAC system control
+        title: Information and Communication Planning and Evaluation Institute
         caption: Feb. 2024 - Present
         description: | # this will include new lines to allow paragraphs
-          Development of NetZero Building Energy Efficient System through AI-based HVAC system control, Information and Communication Planning and Evaluation Institute. Research Assistant @ Korea University 
+          Development of NetZero Building Energy Efficient System through AI-based HVAC system control, Research Assistant @ Korea University 
       - layout: left
-        title: Maximize productivity by changing facility and logistics layouts Model development
+        title: Samsung Electronics
         caption: Nov. 2023 - Feb. 2024
         description: | # this will include new lines to allow paragraphs
-          Maximize productivity by changing facility and logistics layouts Model development, Samsung Electronics Co., Ltd. Research Assistant @ Korea University
+          Maximize productivity by changing facility and logistics layouts Model development, Research Assistant @ Korea University
   
   - title: Scholarship
     layout: list

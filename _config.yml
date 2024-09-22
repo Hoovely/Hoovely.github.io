@@ -15,13 +15,14 @@ website: www.github.com/Hoovely
 darkmode: false
 
 # Additional icon links
-# additional_links:
+additional_links:
 - title: itsgoingto.be
   icon: fab fa-ello
   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# Uncomment and add more links as needed
+  # - title: another link
+  #   icon: fab fa-twitter
+  #   url: https://twitter.com
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -70,9 +71,11 @@ content:
         border: weak
         sub_title: 2023 - 2025
         caption: M.S. in Industrial Management Engineering
+      - layout: left
         title: Pusan National University
         sub_title: B.S. in Urban Engineering (double: Big Data Science)
         caption: 2017 - 2023
+        
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs

@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/modern-resume-theme
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Data type version
@@ -9,103 +9,89 @@ version: 2
 name: Joonghoo Park
 title: Graduate Student
 email: pjh98@korea.ac.kr
-email_title: Email
+# email_title: Email
 # phone: 07845248563
 # phone_title: Phone
 website: www.github.com/Hoovely
-website_title: Web
+# website_title: Web
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
 linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
 googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Test link
-  icon: fab fa-ello
-  url: sproogen.github.io/modern-resume-theme
+# additional_links:
+# - title: Test link
+#   icon: fab fa-ello
+#   url: sproogen.github.io/modern-resume-theme
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-# about_profile_image: _test/images/travis.png
+about_profile_image: _test/images/travis.png
 about_content: > # this means to ignore newlines until the next config item.
   Hi! My name is Joonghoo Park.
 
 content:
-  - title: Projects
-    layout: list
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        border: weak
-        title: Project 1
-        link: https://sproogen.github.io/modern-resume-theme
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
         additional_links:
-          - title:  Github page for project
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
-            url: sproogen.github.io/modern-resume-theme
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project
-        description: >
-          Description about the work on/with the project
-
-      - title: Project 2
-        description: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        border: weak
-        title: Company 1
-        link: https://google.com
-        sub_title: Job title 1
-        caption: November 2016 - present
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
         quote: >
           Short description of the company (optional)
-        description: >
-            Description of role
-
-      - layout: top
-        title: Company 2
-        sub_title: Job title 1
-        caption: January 2014 - November 2016
-        description: >
+        description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
     layout: list
     content:
-      - title: Pusan National University
-        border: weak
-        sub_title: 2017 - 2023
-        caption: B.S. in Urban Engineering (double: Big Data Science)
-        # quote: >
-        #   Short institution or course description
-        # description: >
-        #   Description of qualification
-      - layout: left
+      - layout: top-right
         title: Korea University
         border: weak
         sub_title: 2023 - 2025
         caption: M.S. in Industrial Management Engineering
-        # description: >
-        #   Description of qualification
+        title: Pusan National University
+        sub_title: B.S. in Urban Engineering (double: Big Data Science)
+        caption: 2017 - 2023
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -113,21 +99,13 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
-      ![alt text](_test/images/landscape-trees.jpg "Trees")
-
 # Footer
 footer_show_references: true
-references_title: References on request
+# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-include:
- - _test
-
-exclude:
-  - vendor
 
 sass:
   sass_dir: _sass
@@ -135,3 +113,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

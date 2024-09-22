@@ -73,9 +73,9 @@ content:
         caption: M.S. in Industrial Management Engineering
       - layout: left
         title: Pusan National University
-        sub_title: B.S. in Urban Engineering (double: Big Data Science)
-        caption: 2017 - 2023
-        
+        sub_title: 2017 - 2023
+        caption: B.S. in Urban Engineering (Double Big Data Science)
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs

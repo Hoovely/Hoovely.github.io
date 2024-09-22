@@ -30,7 +30,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/JH.jpg
 about_content: > # this means to ignore newlines until the next config item.
-  Hi! My name is Joonghoo Park.
+  Hi, my name is Joonghoo Park. I am a M.S. student in Industrial & Management Engineering at Korea university 
+  with a focus on combinatorial optimization, including vehicle routing problems, logistics and facility location. 
+  To facilitate my research, I employ various methodologies, including but not limited to integer programming, (meta) heuristics, 
+  and hybridization with artificial intelligence. I am open to collaborating with good research partners, 
+  so please don’t hesitate to contact me.
 
 content:
   - title: Education
@@ -72,7 +76,7 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: International Journals
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)
@@ -87,7 +91,7 @@ content:
   - title: Conferences
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: International Conferences
         # sub_title: Job title
         # caption: Date Range (eg. November 2016 - present)

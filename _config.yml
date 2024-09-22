@@ -25,7 +25,7 @@ additional_links:
 - title: Google Scholar Link
   icon: fab fa-google
   url: https://scholar.google.com/
-  
+
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/JH.jpg
@@ -118,11 +118,11 @@ content:
     layout: list
     content:
       - layout: left
-        title: 2024
+        title: Mar. 2024
         description: | # this will include new lines to allow paragraphs
           Korea University Graduate School Mentor-Mentee Program
       - layout: left
-        title: 2023
+        title: Sep. 2023
         description: | # this will include new lines to allow paragraphs
           Korea University Future Talent Scholarship Student
         

@@ -19,12 +19,12 @@ additional_links:
 - title: Github Link
   icon: fab fa-github
   url: https://www.github.com/Hoovely
-- title: Linkedin Link
-  icon: fab fa-linkedin
-  url: https://www.linkedin.com/
-- title: Google Scholar Link
-  icon: fab fa-google
-  url: https://scholar.google.com/
+# - title: Linkedin Link
+#   icon: fab fa-linkedin
+#   url: https://www.linkedin.com/
+# - title: Google Scholar Link
+#   icon: fab fa-google
+#   url: https://scholar.google.com/
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -51,25 +51,7 @@ content:
         caption: 2017 - 2023
         description: | # this will include new lines to allow paragraphs
           B.S. in Urban Engineering (Double: Big Data Science)
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: top
-        title: Bigdata Analytics & Engineering Lab
-        # sub_title: Research Intern
-        caption: 2022 - 2023
-        # link: Link to company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Research Intern at Bigdata Analytics & Engineering Lab, Pusan National University
-      - layout: top
-        title: Regional Development & Planning Lab
-        # sub_title: Research Intern
-        caption: 2021 - 2022
-        # link: Link to company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Research Intern at Regional Development & Planning Lab, Pusan National University
-      
+   
   - title: Publications
     layout: list
     content:
@@ -79,7 +61,7 @@ content:
         # caption: Date Range (eg. November 2016 - present)
         # link: Link to company (optional)
         description: | # this will include new lines to allow paragraphs
-          - (Works in Progress) Hyungjoo Cha, Joonghoo Park, Chungmok Lee* and Taesu Cheong*, "Branch and cut algorithm for vehicle routing problem with availability profiles"
+          - (Works in Progress) Hyungjoo Cha, Joonghoo Park, Chungmok Lee* and Taesu Cheong*, "An Exact algorithm for Vehicle Routing Problem with Availability Profiles"
           - (Works in Progress) Joonghoo Park, Gwangjong Ko, Hyungjoo Cha and Taesu Cheong*, “Vehicle routing problem with metro based backhauls and MFCs”
           - (Works in Progress) Joonghoo Park, Hyungjoo Cha, San Kwon and Taesu Cheong*, “Temporary medical shelter location-routing problem with manpower allocation in a disaster situation”
           - Seongjin Lee, Joonghoo Park, Seungmin Cha and Donghyun Kim* (2022), “A Regional Economy’s Resistance to the COVID-19 Shock: Sales Revenues of Micro-, Small-, and Medium-Sized Enterprises in South Korea”, International Journal of Disaster Risk Science
@@ -115,7 +97,40 @@ content:
         description: | # this will include new lines to allow paragraphs
           Maximize productivity by changing facility and logistics layouts Model development, Research Assistant @ Korea University
   
-  - title: Scholarship
+  - title: Research Experience
+    layout: list
+    content:
+      - layout: top
+        title: Bigdata Analytics & Engineering Lab
+        # sub_title: Research Intern
+        caption: 2022 - 2023
+        # link: Link to company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Research Intern at Bigdata Analytics & Engineering Lab, Pusan National University
+      - layout: top
+        title: Regional Development & Planning Lab
+        # sub_title: Research Intern
+        caption: 2021 - 2022
+        # link: Link to company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Research Intern at Regional Development & Planning Lab, Pusan National University
+
+  - title: Skills
+    layout: list
+    content:
+      - layout: top
+        title: Programming Languages
+        description: | # this will include new lines to allow paragraphs
+          - C++
+          - Python
+          - Julia
+      - layout: top
+        title: Optimization Software
+        description: | # this will include new lines to allow paragraphs
+          - CPLEX
+          - Gurobi
+
+  - title: Awards & Honors
     layout: list
     content:
       - layout: top

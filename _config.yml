@@ -143,8 +143,9 @@ content:
           - Gurobi
       - layout: top
         title: Military Service
+        caption: Jan. 2019 - Nov. 2020
         description: | # this will include new lines to allow paragraphs
-          ROK Air Force (Jan. 2019 - Nov. 2020)
+          Republic of Korea Air Force
 
 # Footer
 footer_show_references: true

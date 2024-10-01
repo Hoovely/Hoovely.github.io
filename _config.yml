@@ -30,10 +30,12 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/JH.jpg
 about_content: > # this means to ignore newlines until the next config item.
-  Hi, my name is Joonghoo Park. I am an M.S. student in Industrial & Management Engineering at Korea University, 
-  with a focus on combinatorial optimization, including vehicle routing problems, logistics, and facility location. 
-  To support my research, I employ various methodologies, including, but not limited to, integer programming, (meta) heuristics, 
-  and hybridization with artificial intelligence. I am open to collaborating with fellow researchers, so please don’t hesitate to contact me.
+  Hi, my name is Joonghoo Park. I am an M.S. student in Industrial & Management Engineering at Korea University. 
+  My research interest is in analyzing, modeling, designing, and implementing algorithms for combinatorial optimization, 
+  particularly in vehicle routing problems by integer programming and meta-heuristics. 
+
+  - Methodologies: Linear programming, Integer programming, Branch-and-cut, Meta-heuristics
+  - Applications: Vehicle routing problems, Logistics, Facility location
 
 content:
   - title: Education
@@ -133,8 +135,8 @@ content:
       - layout: top
         title: Programming Languages
         description: | # this will include new lines to allow paragraphs
-          - C++
           - Python
+          - C++
           - Julia
       - layout: top
         title: Optimization Software
